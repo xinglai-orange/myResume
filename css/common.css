@@ -23,7 +23,7 @@ ul, ol {
 input {
     padding-top: 0;
     padding-bottom: 0;
-    font-family: "SimSun", "微软雅黑";
+    font-family: "minijianxiaolis84b8332bd17cc8","SimSun", "微软雅黑";
 }
 
 /*去掉行内替换元素空白间隙*/
@@ -52,8 +52,9 @@ table {
 }
 
 body {
-    font: 12px/150% Arial, Verdana, "\5b8b\4f53"; /*宋体 unicode */
+    font: 12px/150%  "minijianxiaolis84b8332bd17cc8",Arial, Verdana, "\5b8b\4f53"; /*宋体 unicode */
     color: #fff;
+    font-family: "minijianxiaolis84b8332bd17cc8"!important;
     background: #fff;
 }
 
