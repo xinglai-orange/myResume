@@ -44,7 +44,15 @@ $(function () {
     $sectionLis=$(".accordion li");
     $role=$(".role");
     $mask=$(".tou-mask");
+    var sectionNum=[2,1,1,1];
     $sectionLis.on("click", function () {
+        var index = $(this).index("li");
+        var indexNum=sectionNum[index];
+        for(i in sectionNum){
+            sectionNum[i]=1;
+        }
+        sectionNum[index]=indexNum;
+        if(sectionNum[index]>1) return;
         $(this).animate({"width":"400px"}).siblings().animate({"width":"200px"});
         // $role.removeClass("role-active");
         $role.filter(".role-active").removeClass("role-active");
@@ -52,5 +60,6 @@ $(function () {
         
         $mask.removeClass("tou-mask-clc").addClass("tou-mask-order");;
         $(this).find(".tou-mask").removeClass("tou-mask-order").addClass("tou-mask-clc");
+        sectionNum[index]++;
     })
 })
