@@ -37,7 +37,7 @@ $(function () {
         series: [{
             type: 'column',
             colorByPoint: true,
-            data: [8, 8, 6, 7, 6, 6, 6, 6, 6, 8 , 6 ,4],
+            data: [7, 8, 6, 7, 6, 6, 5, 5, 6, 8 , 6 ,4],
             showInLegend: false
         }],
         credits: {
