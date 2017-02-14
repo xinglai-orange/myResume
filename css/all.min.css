@@ -6,7 +6,7 @@ textarea{resize:none}img{border:0;vertical-align:middle}table{border-collapse:co
 body{font:12px/150% "minijianxiaolis84b8332bd17cc8",Arial,Verdana,"\5b8b\4f53";color:#fff;font-family:"minijianxiaolis84b8332bd17cc8" !important;background:#fff}
 .clearfix:before,.clearfix:after{content:"";display:table}
 .clearfix:after{clear:both}.clearfix{*zoom:1}s,i,em{font-style:normal;text-decoration:none}
-.fl{float:left}.fr{float:right}.bacgI{overflow:hidden;background:url("../images/xuhua.webp") no-repeat;background-size:cover}
+.fl{float:left}.fr{float:right}.bacgI{overflow:hidden;background:url("../images/xuhua.jpg") no-repeat;background-size:cover}
 .qin{z-index:10}.breadcrumb{position:fixed;top:20px;left:50px;box-shadow:0 0 15px 1px rgba(255,255,255,0.35);overflow:hidden;border-radius:5px;counter-reset:flag;z-index:10}
 .breadcrumb a{text-decoration:none;outline:0;display:block;float:left;font-size:16px;font-weight:700;line-height:36px;color:white;padding:0 10px 0 60px;background:#666;background:linear-gradient(#666,#333);position:relative;border:1px solid #c6a387}
 .breadcrumb a:first-child{padding-left:46px;border-radius:5px 0 0 5px}.breadcrumb a:first-child:before{left:14px}
